@@ -3,7 +3,7 @@ This is a dataset from Kaggle which contains data of a bank and is used to predi
 
 classifiers used are:
 1. K-Nearest Neighbor (KNN) Algorithm
-2. K-Nearest Neighbor (KNN) Algorithm
+2. Logistic Regression
 3. Random Forest
 
 Dataset: https://www.kaggle.com/itsmesunil/bank-loan-modelling
