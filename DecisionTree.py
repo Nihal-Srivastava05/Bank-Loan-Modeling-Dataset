@@ -113,5 +113,8 @@ class DecisionTree:
 
     def _most_common_label(self, y):
         counter = Counter(y)
-        most_common = counter.most_common(1)[0][0]
+        if counter.most_common(1):
+            most_common = counter.most_common(1)[0][0]
+        else:
+            most_common = None;
         return most_common
